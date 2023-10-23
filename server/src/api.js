@@ -4,7 +4,7 @@ const serverless = require('serverless-http');
 const app = express();
 const router = express.Router();
 
-router.get('/*', (req, res) => {
+router.get('/test', (req, res) => {
    // res.sendfile(`/.${req.path}`)
     // res.sendFile(`index.html`)
     res.json({
